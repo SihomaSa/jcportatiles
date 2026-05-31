@@ -75,6 +75,7 @@ firebase deploy
 jcportatiles/
 ├── src/
 │   ├── components/
+├   ├   ├── Products.jsx
 │   │   ├── Navbar.jsx
 │   │   ├── Hero.jsx
 │   │   ├── InfoBar.jsx
