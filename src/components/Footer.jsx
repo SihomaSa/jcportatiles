@@ -12,17 +12,18 @@ export default function Footer() {
       gap: '16px',
       borderTop: '3px solid var(--red)',
     }}>
-      <div style={{
-        fontFamily: "'Barlow Condensed', sans-serif",
-        fontSize: '22px', fontWeight: 900, color: '#fff',
-      }}>
-        JC<span style={{ color: 'var(--red)' }}>PORTÁTILES</span>
+      <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+        <img
+          src="/logo.png"
+          alt="JC Portátiles"
+          style={{ height: '64px', width: 'auto', objectFit: 'contain' }}
+        />
       </div>
       <p style={{ fontSize: '13px', color: '#556677' }}>
         Servicio Técnico de Laptops y Computadoras · Lima, Perú
       </p>
       <p style={{ fontSize: '13px', color: '#7a90a8' }}>
-         ·{' '}
+         {' '}
         <a href="https://www.facebook.com/jcportatilessac" target="_blank" rel="noreferrer"
           style={{ color: '#4a9eff' }}>facebook.com/jcportatilessac</a>
       </p>
